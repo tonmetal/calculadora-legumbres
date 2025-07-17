@@ -4,7 +4,7 @@
     display: flex;
     flex-direction:column;
     margin: auto;
-    width: 200px;
+    width: 220px;
     background-color: #fdf0d5;
     padding: 40px;
     padding-top: 20px;
@@ -19,9 +19,10 @@ h1{
 }
 
 #input{
-    width: 150px;
-    height: 30px;
+    width: 167px;
+    height: 35px;
     margin: auto;
+    box-sizing: border-box;
     text-align: end;
     background-color: #99ceef;
     font-weight: bold;
@@ -31,13 +32,16 @@ h1{
     margin-bottom: 20px;
 }
 
-button{
-    width: 160px;
+#boton{
+    width: 165px;
+    height: 35px;
     margin: auto;
-    padding: 9px;
+    padding: 8px 16px;
+    box-sizing: border-box;
     border: none;
     border-radius: 4px;
     background-color: #780000;
     color: #fdf0d5;
     font-weight: bolder;
+    text-align: end;
 }
